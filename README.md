@@ -6,7 +6,8 @@ I was looking for a cool project over the holidays and since my wife found some 
 
 Everytime someone tweets with #MerryChristmas, these lights increase to 100% brightness and then drain down to 10% until a new tweet is sent.
 
-video here
+![Lights in action]()
+Note: Flickering in the video is due to camera refresh rate
 
 This project is based off of [this one](https://github.com/third774/twitter-christmas), but I've modified it to use WiringPi instead of RPi.GPIO for a less jittery PWM on the PI Zero.
 ## Requirements
