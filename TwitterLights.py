@@ -73,7 +73,6 @@ while running:
         try:
                 print('Starting')
                 stream.statuses.filter(track=TERMS)
-#               wiringpi.softPwmWrite(LED,p)
         except (KeyboardInterrupt, SystemExit):
                 print('Exiting')
                 print('Stopping Lights')
